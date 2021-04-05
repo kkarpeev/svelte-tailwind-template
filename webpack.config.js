@@ -74,7 +74,6 @@ module.exports = {
   ],
   optimization: {
     minimizer: [
-      `...`,
       new CssMinimizerPlugin()
     ],
   },
@@ -82,6 +81,6 @@ module.exports = {
   devServer: {
     hot: true,
     contentBase: 'public',
-    host: '0.0.0.0'
+    host: 'localhost'
   }
 };

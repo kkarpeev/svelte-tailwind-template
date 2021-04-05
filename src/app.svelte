@@ -18,7 +18,7 @@
   </div>
 {/if}
 
-<button class="btn" on:click={() => active = !active}>
+<button class="btn" class:w-4={!active} on:click={() => active = !active}>
   Fancy button, or is it? Press it?
 </button>
 
